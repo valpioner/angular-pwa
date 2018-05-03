@@ -1,0 +1,36 @@
+{
+  "configVersion": 1,
+  "index": "https://valpioner.github.io/angular-pwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://valpioner.github.io/angular-pwa/favicon.ico",
+        "https://valpioner.github.io/angular-pwa/index.html",
+        "https://valpioner.github.io/angular-pwa/inline.318b50c57b4eba3d437b.bundle.js",
+        "https://valpioner.github.io/angular-pwa/main.4c56975a1baaac1f338f.bundle.js",
+        "https://valpioner.github.io/angular-pwa/polyfills.b6b2cd0d4c472ac3ac12.bundle.js",
+        "https://valpioner.github.io/angular-pwa/styles.fc109275d150c44719ea.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://valpioner.github.io/angular-pwa/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
+    "https://valpioner.github.io/angular-pwa/main.4c56975a1baaac1f338f.bundle.js": "20fc3e3afc74463e73bdda674793d4286b72fb8e",
+    "https://valpioner.github.io/angular-pwa/polyfills.b6b2cd0d4c472ac3ac12.bundle.js": "b092f5c27ff4222179ae3e9e3164c8cc6caa09cf",
+    "https://valpioner.github.io/angular-pwa/styles.fc109275d150c44719ea.bundle.css": "65ca22feb0277adcc9f24ad0e887db5f3e55b6f8",
+    "https://valpioner.github.io/angular-pwa/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://valpioner.github.io/angular-pwa/index.html": "316b5e9f9b77023bf18d27fe3057ddefca9b8cb9"
+  }
+}
