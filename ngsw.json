@@ -14,16 +14,16 @@
         "https://valpioner.github.io/angular-pwa/polyfills.b6b2cd0d4c472ac3ac12.bundle.js",
         "https://valpioner.github.io/angular-pwa/styles.03b5f5f64d9c4bed131d.bundle.css"
       ],
-      "patterns": [
-        "https:\\/\\/cataas\\.com\\/.*"
-      ]
+      "patterns": []
     },
     {
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [],
-      "patterns": []
+      "patterns": [
+        "https:\\/\\/cataas\\.com\\/.*"
+      ]
     }
   ],
   "dataGroups": [],
