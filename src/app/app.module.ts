@@ -5,7 +5,6 @@ import { MatToolbarModule, MatCardModule, MatButtonModule,
   MatSidenavModule, MatIconModule, MatListModule, MatSidenav } from '@angular/material';
 
 import { AppComponent } from './app.component';
-import { AppNavComponent } from './app-nav/app-nav.component';
 import { ImgCardComponent } from './img-card/img-card.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -13,15 +12,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { LayoutModule } from '@angular/cdk/layout';
-import { AppFooterComponent } from './app-footer/app-footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ImgCardComponent,
-    AppNavComponent,
-    AppFooterComponent
+    ImgCardComponent
   ],
   imports: [
     BrowserModule,
