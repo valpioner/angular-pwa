@@ -1,8 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { MatToolbarModule, MatCardModule, MatButtonModule,
   MatSidenavModule, MatIconModule, MatListModule, MatSidenav } from '@angular/material';
+
+import { CoreModule } from './core/core.module';
+import { HomeModule } from './modules/home/home.module';
 
 import { AppComponent } from './app.component';
 import { ImgCardComponent } from './img-card/img-card.component';
@@ -22,11 +26,14 @@ import { LayoutModule } from '@angular/cdk/layout';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    NgbModule.forRoot(),
+    CoreModule,
+    HomeModule,
+    environment.production ? ServiceWorkerModule.register('ngsw-worker.js') : [],
+    LayoutModule,
     MatToolbarModule,
     MatCardModule,
     MatButtonModule,
-    environment.production ? ServiceWorkerModule.register('ngsw-worker.js') : [],
-    LayoutModule,
     MatSidenavModule,
     MatIconModule,
     MatListModule
